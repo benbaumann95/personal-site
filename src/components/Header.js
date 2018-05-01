@@ -5,7 +5,7 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <ul className="header">
+        <ul className="Header">
           <li className="header-item header-name">BB</li>
           <li className="header-item header-last">
             <a href="#footer" className="header-link">
@@ -13,12 +13,12 @@ class Header extends React.Component {
             </a>
           </li>
           <li className="header-item">
-            <a href="#teaching" className="header-link">
-              CV
+            <a href="#CV" className="header-link">
+              Games
             </a>
           </li>
           <li className="header-item">
-            <a href="#blog" className="header-link">
+            <a href="#bio" className="header-link">
               Bio
             </a>
           </li>

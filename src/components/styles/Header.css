@@ -11,6 +11,9 @@
   z-index: 500;
 }
 
+.header-container {
+}
+
 .header-item {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -40,8 +43,8 @@
   text-align: center;
   padding: 20px 20px;
   text-decoration: none;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .header-link:hover:not(.active) {
