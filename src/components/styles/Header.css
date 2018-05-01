@@ -1,0 +1,55 @@
+.Header {
+  list-style-type: none;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  /*border: 1px solid #e7e7e7;*/
+  background-color: #f1f1f1;
+  z-index: 500;
+}
+
+.header-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  float: right;
+}
+
+.header-last {
+  margin-right: 60px;
+}
+
+.header-name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  font-size: 36px;
+  display: block;
+  margin-left: 60px;
+  color: black;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+  float: left;
+}
+
+.header-link {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.header-link:hover:not(.active) {
+  background-color: #bafffc;
+  color: #16223c;
+}
+
+.header-link.active {
+  color: white;
+  background-color: #4caf50;
+}
